@@ -32,6 +32,7 @@ To set up this project, follow these steps for both the backend and frontend dir
    ```bash
    cd backend
 2. Install the required Node.js modules:
+   ```bash
    npm i
 ### Frontend Installation
 1. Open another terminal instance (or navigate back to the project root if needed) and go to the frontend directory:
