@@ -1,38 +1,25 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-<<<<<<< HEAD
-import avatar from 'C:/Users/Faraz/Desktop/expense-tracker-SE/expense-tracker-main/frontend/src/img/Image.jpg';
-import { signout } from '../../utils/Icons';
-import { menuItems } from '../../utils/menuItems';
-
-
-function Navigation({ active, setActive }) {
-=======
-import avatar from '../../img/avatar.png';
+import avatar from '../../img/Image.jpg';
 import { signout } from '../../utils/Icons';
 import { menuItems } from '../../utils/menuItems';
 
 function Navigation({ active, setActive }) {
-  const [isLoggedIn, setIsLoggedIn] = useState(true); // State to track login status
-
+  const [isLoggedIn, setIsLoggedIn] = useState(true);
   const handleSignOut = () => {
     // Perform sign-out actions here
     setIsLoggedIn(false); // Update login status to false on sign out
+    
   };
 
->>>>>>> 6a27057bc0dcc38a310801062ef30e74a64e78a9
+
   return (
     <NavStyled>
       <div className="user-con">
         <img src={avatar} alt="" />
         <div className="text">
-<<<<<<< HEAD
-          <h2>Moeen</h2>
-          <p>ExpenseTracker</p>
-=======
-          <h2>Mike</h2>
-          <p>Your Money</p>
->>>>>>> 6a27057bc0dcc38a310801062ef30e74a64e78a9
+          <h2>Moeen CC</h2>
+          <p>Expense Tracker</p>
         </div>
       </div>
       <ul className="menu-items">
@@ -48,15 +35,12 @@ function Navigation({ active, setActive }) {
         ))}
       </ul>
       <div className="bottom-nav">
-<<<<<<< HEAD
         <SignOutButton>
-          {signout} Sign Out
-        </SignOutButton>
-=======
-        <li onClick={handleSignOut}>
+          
+          <li onClick={handleSignOut}>
           {signout} Sign Out
         </li>
->>>>>>> 6a27057bc0dcc38a310801062ef30e74a64e78a9
+        </SignOutButton>
       </div>
     </NavStyled>
   );
@@ -65,10 +49,9 @@ function Navigation({ active, setActive }) {
 
 
 const NavStyled = styled.nav`
-<<<<<<< HEAD
   padding: 2rem 1.5rem;
   width: 374px;
-  height: 900px;
+  height: 100%;
   background: rgba(252, 246, 249, 0.78);
   border: 3px solid #FFFFFF;
   backdrop-filter: blur(4.5px);
@@ -164,9 +147,5 @@ const SignOutButton = styled.button`
   }
 `;
 
-=======
-  /* ...existing styles */
-`;
-
->>>>>>> 6a27057bc0dcc38a310801062ef30e74a64e78a9
 export default Navigation;
+
