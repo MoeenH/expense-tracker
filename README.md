@@ -50,8 +50,16 @@ To set up this project, follow these steps for both the backend and frontend dir
    ```bash
     npm i
 
+## Login:
+![Expense Management System](images/login.jpg "login")
 
+## Dashboard:
+![Expense Management System](images/dashboard.jpg "dashboard")
 
-Example:
+## Income:
+![Expense Management System](images/income.jpg "Income")
+
+## Expenses:
+![Expense Management System](images/expenses.jpg "expenses")
 
 
