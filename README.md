@@ -21,6 +21,14 @@ An expense management system is highly beneficial for:
 
 Overall, it promotes financial awareness, efficiency, and control, aiding in the better management of resources and finances.
 
+## Group Members:
+   1. Moeen Haider 24505
+   2. Muhammad Faraz 25142
+   3. Sarim ul Haque 24493
+   4. Mirza Mustafa 24527
+   5. Siddique Khatri 25135
+
+
 
 
 
