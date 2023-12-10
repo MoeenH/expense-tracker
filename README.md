@@ -31,6 +31,12 @@ Overall, it promotes financial awareness, efficiency, and control, aiding in the
 
 
 
+### Implement MongoDB Cloud
+1. Open '.env':
+   ```bash
+   PORT : <Your Port Number>
+   MONGO_URL:<Your MongoDB Cloud URL>
+
 
 ## Installation
 To set up this project, follow these steps for both the backend and frontend directories:
